@@ -3,9 +3,9 @@ var __path = process.cwd(),
      { color } = require(__path + '/lib/color.js')
 
 // Connection URL
-var url = 'https://apii-8m1pdebjq-panzxx.vercel.app/';
+var url = 'apii-lime.vercel.app';
 try {
-if(url == 'https://apii-8m1pdebjq-panzxx.vercel.app/') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
+if(url == 'apii-lime.vercel.app') throw console.log(color('Cek konfigurasi database, var url belum diisi','red'));
 } catch (e) {
 	return;
 	}
